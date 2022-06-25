@@ -256,7 +256,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "CharacterFormComponent": () => (/* binding */ CharacterFormComponent)
 /* harmony export */ });
-/* harmony import */ var D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var _home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
 /* harmony import */ var src_app_models_Character__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/models/Character */ 4080);
 /* harmony import */ var src_app_state_characters_character_actions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/state/characters/character.actions */ 535);
 /* harmony import */ var src_app_state_characters_character_selector__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/state/characters/character.selector */ 3477);
@@ -352,7 +352,7 @@ class CharacterFormComponent {
   save() {
     var _this = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (_this.character._id) {
         _this.store.dispatch((0,src_app_state_characters_character_actions__WEBPACK_IMPORTED_MODULE_2__.updateCharacter)({
           character: _this.character
@@ -407,7 +407,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "CharacterListItemComponent": () => (/* binding */ CharacterListItemComponent)
 /* harmony export */ });
-/* harmony import */ var D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var _home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
 /* harmony import */ var src_app_state_characters_character_actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/state/characters/character.actions */ 535);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 2560);
 /* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ngrx/store */ 3488);
@@ -433,7 +433,7 @@ class CharacterListItemComponent {
   delete(characterId) {
     var _this = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       _this.store.dispatch((0,src_app_state_characters_character_actions__WEBPACK_IMPORTED_MODULE_1__.deleteCharacter)({
         id: characterId
       }));
@@ -675,7 +675,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "CharacterTaskListItemComponent": () => (/* binding */ CharacterTaskListItemComponent)
 /* harmony export */ });
-/* harmony import */ var D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var _home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
 /* harmony import */ var src_app_state_characters_character_actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/state/characters/character.actions */ 535);
 /* harmony import */ var src_app_state_completedTasks_completed_task_actions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/state/completedTasks/completed-task.actions */ 8321);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 2560);
@@ -765,7 +765,7 @@ class CharacterTaskListItemComponent {
   toggleComplete() {
     var _this = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (_this.task.complete) {
         _this.store.dispatch((0,src_app_state_completedTasks_completed_task_actions__WEBPACK_IMPORTED_MODULE_2__.setIncomplete)({
           characterId: _this.character._id,
@@ -832,7 +832,7 @@ CharacterTaskListItemComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPOR
     }
   },
   dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.NgIf, ngx_bootstrap_icons__WEBPACK_IMPORTED_MODULE_6__.NgxBootstrapIconsLibComponent],
-  styles: [".overlay[_ngcontent-%COMP%] {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  cursor: pointer;\n}\n\n.checkbox-td[_ngcontent-%COMP%] {\n  width: 50px;\n}\n\n.task-image-td[_ngcontent-%COMP%] {\n  width: 50px;\n  padding: 0px;\n}\n\n.task-image[_ngcontent-%COMP%] {\n  height: 50px;\n  width: 50px;\n  object-fit: cover;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNoYXJhY3Rlci10YXNrLWxpc3QtaXRlbS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBQ0o7O0FBRUE7RUFDSSxXQUFBO0FBQ0o7O0FBRUE7RUFDSSxXQUFBO0VBQ0EsWUFBQTtBQUNKOztBQUVBO0VBQ0ksWUFBQTtFQUNBLFdBQUE7RUFDQSxpQkFBQTtBQUNKIiwiZmlsZSI6ImNoYXJhY3Rlci10YXNrLWxpc3QtaXRlbS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5vdmVybGF5IHtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcblxyXG4uY2hlY2tib3gtdGQge1xyXG4gICAgd2lkdGg6IDUwcHg7XHJcbn1cclxuXHJcbi50YXNrLWltYWdlLXRkIHtcclxuICAgIHdpZHRoOiA1MHB4O1xyXG4gICAgcGFkZGluZzogMHB4O1xyXG59XHJcblxyXG4udGFzay1pbWFnZSB7XHJcbiAgICBoZWlnaHQ6IDUwcHg7XHJcbiAgICB3aWR0aDogNTBweDtcclxuICAgIG9iamVjdC1maXQ6IGNvdmVyO1xyXG59Il19 */"]
+  styles: [".overlay[_ngcontent-%COMP%] {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  cursor: pointer;\n}\n\n.checkbox-td[_ngcontent-%COMP%] {\n  width: 50px;\n}\n\n.task-image-td[_ngcontent-%COMP%] {\n  width: 50px;\n  padding: 0px;\n}\n\n.task-image[_ngcontent-%COMP%] {\n  height: 50px;\n  width: 50px;\n  object-fit: cover;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNoYXJhY3Rlci10YXNrLWxpc3QtaXRlbS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FBQ0o7O0FBRUE7RUFDSSxXQUFBO0FBQ0o7O0FBRUE7RUFDSSxXQUFBO0VBQ0EsWUFBQTtBQUNKOztBQUVBO0VBQ0ksWUFBQTtFQUNBLFdBQUE7RUFDQSxpQkFBQTtBQUNKIiwiZmlsZSI6ImNoYXJhY3Rlci10YXNrLWxpc3QtaXRlbS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5vdmVybGF5IHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxMDAlO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuLmNoZWNrYm94LXRkIHtcbiAgICB3aWR0aDogNTBweDtcbn1cblxuLnRhc2staW1hZ2UtdGQge1xuICAgIHdpZHRoOiA1MHB4O1xuICAgIHBhZGRpbmc6IDBweDtcbn1cblxuLnRhc2staW1hZ2Uge1xuICAgIGhlaWdodDogNTBweDtcbiAgICB3aWR0aDogNTBweDtcbiAgICBvYmplY3QtZml0OiBjb3Zlcjtcbn0iXX0= */"]
 });
 
 /***/ }),
@@ -847,7 +847,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "CharacterTaskListComponent": () => (/* binding */ CharacterTaskListComponent)
 /* harmony export */ });
-/* harmony import */ var D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var _home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
 /* harmony import */ var array_move__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! array-move */ 7789);
 /* harmony import */ var array_move__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(array_move__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var src_app_state_characters_character_actions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/state/characters/character.actions */ 535);
@@ -1125,7 +1125,7 @@ class CharacterTaskListComponent {
   toggleEditMode() {
     var _this = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (_this.editMode) _this.store.dispatch((0,src_app_state_characters_character_actions__WEBPACK_IMPORTED_MODULE_2__.updateTaskPriorities)({
         characterId: _this.character._id,
         tasks: _this.tasks
@@ -1220,7 +1220,7 @@ CharacterTaskListComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_
     }
   },
   dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_10__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_10__.NgIf, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_11__.NgbCollapse, ngx_bootstrap_icons__WEBPACK_IMPORTED_MODULE_12__.NgxBootstrapIconsLibComponent, _loader_loader_component__WEBPACK_IMPORTED_MODULE_5__.LoaderComponent, _character_task_list_item_character_task_list_item_component__WEBPACK_IMPORTED_MODULE_6__.CharacterTaskListItemComponent, _angular_common__WEBPACK_IMPORTED_MODULE_10__.AsyncPipe, _pipes_filter_filter_pipe__WEBPACK_IMPORTED_MODULE_7__.FilterPipe],
-  styles: [".task-row[_ngcontent-%COMP%] {\n  position: relative;\n}\n\n.complete-table[_ngcontent-%COMP%] {\n  opacity: 60%;\n}\n\n.draggable[_ngcontent-%COMP%] {\n  cursor: grab;\n}\n\n.draggable[_ngcontent-%COMP%]:active {\n  cursor: grabbing;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNoYXJhY3Rlci10YXNrLWxpc3QuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxrQkFBQTtBQUNKOztBQUVBO0VBQ0ksWUFBQTtBQUNKOztBQUVBO0VBQ0ksWUFBQTtBQUNKOztBQUNJO0VBQ0ksZ0JBQUE7QUFDUiIsImZpbGUiOiJjaGFyYWN0ZXItdGFzay1saXN0LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRhc2stcm93IHtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxufVxyXG5cclxuLmNvbXBsZXRlLXRhYmxlIHtcclxuICAgIG9wYWNpdHk6IDYwJTtcclxufVxyXG5cclxuLmRyYWdnYWJsZSB7XHJcbiAgICBjdXJzb3I6IGdyYWI7XHJcbiAgICBcclxuICAgICY6YWN0aXZlIHsgXHJcbiAgICAgICAgY3Vyc29yOiBncmFiYmluZztcclxuICAgIH1cclxufVxyXG5cclxuXHJcbiJdfQ== */"]
+  styles: [".task-row[_ngcontent-%COMP%] {\n  position: relative;\n}\n\n.complete-table[_ngcontent-%COMP%] {\n  opacity: 60%;\n}\n\n.draggable[_ngcontent-%COMP%] {\n  cursor: grab;\n}\n\n.draggable[_ngcontent-%COMP%]:active {\n  cursor: grabbing;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNoYXJhY3Rlci10YXNrLWxpc3QuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxrQkFBQTtBQUNKOztBQUVBO0VBQ0ksWUFBQTtBQUNKOztBQUVBO0VBQ0ksWUFBQTtBQUNKOztBQUNJO0VBQ0ksZ0JBQUE7QUFDUiIsImZpbGUiOiJjaGFyYWN0ZXItdGFzay1saXN0LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRhc2stcm93IHtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG5cbi5jb21wbGV0ZS10YWJsZSB7XG4gICAgb3BhY2l0eTogNjAlO1xufVxuXG4uZHJhZ2dhYmxlIHtcbiAgICBjdXJzb3I6IGdyYWI7XG4gICAgXG4gICAgJjphY3RpdmUgeyBcbiAgICAgICAgY3Vyc29yOiBncmFiYmluZztcbiAgICB9XG59XG5cblxuIl19 */"]
 });
 
 /***/ }),
@@ -1459,7 +1459,7 @@ HomeComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["�
     }
   },
   dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_4__.NgIf, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__.NgbNav, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__.NgbNavItem, _angular_router__WEBPACK_IMPORTED_MODULE_6__.RouterOutlet, _angular_router__WEBPACK_IMPORTED_MODULE_6__.RouterLinkWithHref, _angular_router__WEBPACK_IMPORTED_MODULE_6__.RouterLinkActive, _loader_loader_component__WEBPACK_IMPORTED_MODULE_1__.LoaderComponent, _angular_common__WEBPACK_IMPORTED_MODULE_4__.AsyncPipe],
-  styles: [".sidebar[_ngcontent-%COMP%] {\n  position: sticky;\n  top: 3.5rem;\n  z-index: 1000;\n  height: calc(100vh - 3.5rem);\n  overflow-y: auto;\n  border-right: 1px solid rgba(0, 0, 0, 0.1);\n}\n\n.sidebar[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: black;\n}\n\n.nav-link.active[_ngcontent-%COMP%] {\n  background-color: rgba(0, 0, 0, 0.1) !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhvbWUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxnQkFBQTtFQUNBLFdBQUE7RUFDQSxhQUFBO0VBQ0EsNEJBQUE7RUFDQSxnQkFBQTtFQUNBLDBDQUFBO0FBQ0o7O0FBRUE7RUFDSSxZQUFBO0FBQ0o7O0FBRUE7RUFDSSwrQ0FBQTtBQUNKIiwiZmlsZSI6ImhvbWUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc2lkZWJhciB7XHJcbiAgICBwb3NpdGlvbjogc3RpY2t5O1xyXG4gICAgdG9wOiAzLjVyZW07XHJcbiAgICB6LWluZGV4OiAxMDAwO1xyXG4gICAgaGVpZ2h0OiBjYWxjKDEwMHZoIC0gMy41cmVtKTtcclxuICAgIG92ZXJmbG93LXk6IGF1dG87XHJcbiAgICBib3JkZXItcmlnaHQ6IDFweCBzb2xpZCByZ2JhKDAsIDAsIDAsIC4xKTtcclxufVxyXG5cclxuLnNpZGViYXIgYSB7XHJcbiAgICBjb2xvcjogYmxhY2s7XHJcbn1cclxuXHJcbi5uYXYtbGluay5hY3RpdmUge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDAsIDAsIDAsIDAuMSkgIWltcG9ydGFudDtcclxufSJdfQ== */"]
+  styles: [".sidebar[_ngcontent-%COMP%] {\n  position: sticky;\n  top: 3.5rem;\n  z-index: 1000;\n  height: calc(100vh - 3.5rem);\n  overflow-y: auto;\n  border-right: 1px solid rgba(0, 0, 0, 0.1);\n}\n\n.sidebar[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: black;\n}\n\n.nav-link.active[_ngcontent-%COMP%] {\n  background-color: rgba(0, 0, 0, 0.1) !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhvbWUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxnQkFBQTtFQUNBLFdBQUE7RUFDQSxhQUFBO0VBQ0EsNEJBQUE7RUFDQSxnQkFBQTtFQUNBLDBDQUFBO0FBQ0o7O0FBRUE7RUFDSSxZQUFBO0FBQ0o7O0FBRUE7RUFDSSwrQ0FBQTtBQUNKIiwiZmlsZSI6ImhvbWUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc2lkZWJhciB7XG4gICAgcG9zaXRpb246IHN0aWNreTtcbiAgICB0b3A6IDMuNXJlbTtcbiAgICB6LWluZGV4OiAxMDAwO1xuICAgIGhlaWdodDogY2FsYygxMDB2aCAtIDMuNXJlbSk7XG4gICAgb3ZlcmZsb3cteTogYXV0bztcbiAgICBib3JkZXItcmlnaHQ6IDFweCBzb2xpZCByZ2JhKDAsIDAsIDAsIC4xKTtcbn1cblxuLnNpZGViYXIgYSB7XG4gICAgY29sb3I6IGJsYWNrO1xufVxuXG4ubmF2LWxpbmsuYWN0aXZlIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMCwgMCwgMCwgMC4xKSAhaW1wb3J0YW50O1xufSJdfQ== */"]
 });
 
 /***/ }),
@@ -1486,7 +1486,7 @@ LoaderComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 0);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("width", ctx.size)("height", ctx.size);
-    } }, styles: [".loader[_ngcontent-%COMP%] {\n  border: 5pt solid #f3f3f3;\n  \n  border-top: 5pt solid #3498db;\n  \n  border-radius: 50%;\n  animation: spin 2s linear infinite;\n  margin: auto;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxvYWRlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHlCQUFBO0VBQ0EsZUFBQTtFQUNBLDZCQUFBO0VBQ0EsU0FBQTtFQUNBLGtCQUFBO0VBQ0Esa0NBQUE7RUFDQSxZQUFBO0FBQ0o7O0FBRUE7RUFDSTtJQUNJLHVCQUFBO0VBQ047RUFDRTtJQUNJLHlCQUFBO0VBQ047QUFDRiIsImZpbGUiOiJsb2FkZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubG9hZGVyIHtcclxuICAgIGJvcmRlcjogNXB0IHNvbGlkICNmM2YzZjM7XHJcbiAgICAvKiBMaWdodCBncmV5ICovXHJcbiAgICBib3JkZXItdG9wOiA1cHQgc29saWQgIzM0OThkYjtcclxuICAgIC8qIEJsdWUgKi9cclxuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcclxuICAgIGFuaW1hdGlvbjogc3BpbiAycyBsaW5lYXIgaW5maW5pdGU7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbn1cclxuXHJcbkBrZXlmcmFtZXMgc3BpbiB7XHJcbiAgICAwJSB7XHJcbiAgICAgICAgdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7XHJcbiAgICB9XHJcbiAgICAxMDAlIHtcclxuICAgICAgICB0cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpO1xyXG4gICAgfVxyXG59Il19 */"] });
+    } }, styles: [".loader[_ngcontent-%COMP%] {\n  border: 5pt solid #f3f3f3;\n  \n  border-top: 5pt solid #3498db;\n  \n  border-radius: 50%;\n  animation: spin 2s linear infinite;\n  margin: auto;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxvYWRlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHlCQUFBO0VBQ0EsZUFBQTtFQUNBLDZCQUFBO0VBQ0EsU0FBQTtFQUNBLGtCQUFBO0VBQ0Esa0NBQUE7RUFDQSxZQUFBO0FBQ0o7O0FBRUE7RUFDSTtJQUNJLHVCQUFBO0VBQ047RUFDRTtJQUNJLHlCQUFBO0VBQ047QUFDRiIsImZpbGUiOiJsb2FkZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubG9hZGVyIHtcbiAgICBib3JkZXI6IDVwdCBzb2xpZCAjZjNmM2YzO1xuICAgIC8qIExpZ2h0IGdyZXkgKi9cbiAgICBib3JkZXItdG9wOiA1cHQgc29saWQgIzM0OThkYjtcbiAgICAvKiBCbHVlICovXG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xuICAgIGFuaW1hdGlvbjogc3BpbiAycyBsaW5lYXIgaW5maW5pdGU7XG4gICAgbWFyZ2luOiBhdXRvO1xufVxuXG5Aa2V5ZnJhbWVzIHNwaW4ge1xuICAgIDAlIHtcbiAgICAgICAgdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7XG4gICAgfVxuICAgIDEwMCUge1xuICAgICAgICB0cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpO1xuICAgIH1cbn0iXX0= */"] });
 
 
 /***/ }),
@@ -1612,7 +1612,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "TaskFormComponent": () => (/* binding */ TaskFormComponent)
 /* harmony export */ });
-/* harmony import */ var D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var _home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
 /* harmony import */ var src_app_enums_task_repeats_enum__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/enums/task-repeats.enum */ 7577);
 /* harmony import */ var src_app_enums_task_type_enum__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/enums/task-type.enum */ 6628);
 /* harmony import */ var src_app_models_Task__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/models/Task */ 1497);
@@ -1705,7 +1705,7 @@ class TaskFormComponent {
     var _this = this;
 
     this.activatedRoute.params.subscribe( /*#__PURE__*/function () {
-      var _ref = (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (params) {
+      var _ref = (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (params) {
         let id = params["id"];
 
         if (id) {
@@ -1843,7 +1843,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "TaskListItemComponent": () => (/* binding */ TaskListItemComponent)
 /* harmony export */ });
-/* harmony import */ var D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var _home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
 /* harmony import */ var src_app_state_tasks_task_actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/state/tasks/task.actions */ 639);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 2560);
 /* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ngrx/store */ 3488);
@@ -1896,7 +1896,7 @@ class TaskListItemComponent {
   delete(id) {
     var _this = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       _this.store.dispatch((0,src_app_state_tasks_task_actions__WEBPACK_IMPORTED_MODULE_1__.deleteTask)({
         id: id
       }));
@@ -2123,7 +2123,7 @@ ToastComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__[
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](0, ToastComponent_ngb_toast_0_Template, 2, 4, "ngb-toast", 0);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.toastService.toasts);
-    } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.NgForOf, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__.NgbToast], styles: ["[_nghost-%COMP%] {\n  position: fixed;\n  top: 0;\n  right: 0;\n  margin: 0.5em;\n  z-index: 1200;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRvYXN0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksZUFBQTtFQUNBLE1BQUE7RUFDQSxRQUFBO0VBQ0EsYUFBQTtFQUNBLGFBQUE7QUFDSiIsImZpbGUiOiJ0b2FzdC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0IHtcclxuICAgIHBvc2l0aW9uOiBmaXhlZDtcclxuICAgIHRvcDogMDtcclxuICAgIHJpZ2h0OiAwO1xyXG4gICAgbWFyZ2luOiAwLjVlbTtcclxuICAgIHotaW5kZXg6IDEyMDA7XHJcbiAgfSJdfQ== */"] });
+    } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.NgForOf, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__.NgbToast], styles: ["[_nghost-%COMP%] {\n  position: fixed;\n  top: 0;\n  right: 0;\n  margin: 0.5em;\n  z-index: 1200;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRvYXN0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksZUFBQTtFQUNBLE1BQUE7RUFDQSxRQUFBO0VBQ0EsYUFBQTtFQUNBLGFBQUE7QUFDSiIsImZpbGUiOiJ0b2FzdC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0IHtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiAwO1xuICAgIHJpZ2h0OiAwO1xuICAgIG1hcmdpbjogMC41ZW07XG4gICAgei1pbmRleDogMTIwMDtcbiAgfSJdfQ== */"] });
 
 
 /***/ }),
@@ -2176,7 +2176,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AuthenticationGuard": () => (/* binding */ AuthenticationGuard)
 /* harmony export */ });
-/* harmony import */ var D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var _home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 2560);
 /* harmony import */ var _services_auth_auth_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../services/auth/auth.service */ 1228);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 124);
@@ -2194,7 +2194,7 @@ class AuthenticationGuard {
   canActivate(route, state) {
     var _this = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       let code = route.queryParams.code;
 
       if (code) {
@@ -2383,7 +2383,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AuthService": () => (/* binding */ AuthService)
 /* harmony export */ });
-/* harmony import */ var D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var _home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 2560);
 /* harmony import */ var src_environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/environments/environment */ 2340);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 124);
@@ -2404,7 +2404,7 @@ class AuthService {
   getAuthenticatedUser() {
     var _this = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       let response = yield _this.fetchService.get(`user`);
       let isOk = response.status == 200;
 
@@ -2421,7 +2421,7 @@ class AuthService {
   getToken(code) {
     var _this2 = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       let body = {
         code: code,
         redirect: src_environments_environment__WEBPACK_IMPORTED_MODULE_1__.environment.redirectUrl
@@ -2434,7 +2434,7 @@ class AuthService {
   fetchLoginUrl() {
     var _this3 = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       let response = yield _this3.fetchService.get(`auth/authUrl?redirect=${src_environments_environment__WEBPACK_IMPORTED_MODULE_1__.environment.redirectUrl}`);
       let url = yield response.text();
       return url;
@@ -2444,14 +2444,14 @@ class AuthService {
   signIn() {
     var _this4 = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       let url = yield _this4.fetchLoginUrl();
       location.href = url;
     })();
   }
 
   logout() {
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       location.href = src_environments_environment__WEBPACK_IMPORTED_MODULE_1__.environment.apiEndpoint + "/auth/logout?redirect=" + location.href;
     })();
   }
@@ -2480,7 +2480,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "CharacterService": () => (/* binding */ CharacterService)
 /* harmony export */ });
-/* harmony import */ var D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var _home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 2560);
 /* harmony import */ var _fetch_fetch_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../fetch/fetch.service */ 4404);
 
@@ -2494,7 +2494,7 @@ class CharacterService {
   getAll() {
     var _this = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       let response = yield _this.fetchService.get("characters");
       return yield response.json();
     })();
@@ -2503,7 +2503,7 @@ class CharacterService {
   create(character) {
     var _this2 = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       yield _this2.fetchService.post("characters", character);
     })();
   }
@@ -2511,7 +2511,7 @@ class CharacterService {
   update(character) {
     var _this3 = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       yield _this3.fetchService.put("characters", character);
     })();
   }
@@ -2519,7 +2519,7 @@ class CharacterService {
   delete(id) {
     var _this4 = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       yield _this4.fetchService.delete("characters", {
         id: id
       });
@@ -2593,7 +2593,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "FetchService": () => (/* binding */ FetchService)
 /* harmony export */ });
-/* harmony import */ var D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var _home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
 /* harmony import */ var src_app_models_AuthError__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/models/AuthError */ 3926);
 /* harmony import */ var src_environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/environments/environment */ 2340);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 2560);
@@ -2609,7 +2609,7 @@ class FetchService {
   get(url) {
     var _this = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       return _this.fetch(`${_this.apiUrl}/${url}`, {
         credentials: 'include'
       });
@@ -2619,7 +2619,7 @@ class FetchService {
   post(url, body) {
     var _this2 = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       return _this2.sendRequest(url, body, "POST");
     })();
   }
@@ -2627,7 +2627,7 @@ class FetchService {
   put(url, body) {
     var _this3 = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       return _this3.sendRequest(url, body, "PUT");
     })();
   }
@@ -2635,7 +2635,7 @@ class FetchService {
   delete(url, body) {
     var _this4 = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       return _this4.sendRequest(url, body, "DELETE");
     })();
   }
@@ -2643,7 +2643,7 @@ class FetchService {
   sendRequest(url, body, method) {
     var _this5 = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       return _this5.fetch(`${_this5.apiUrl}/${url}`, {
         method: method,
         headers: {
@@ -2660,7 +2660,7 @@ class FetchService {
   }
 
   handleErrors(response) {
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (response.status == 401) {
         throw new src_app_models_AuthError__WEBPACK_IMPORTED_MODULE_1__.AuthError("Authentication error");
       } else if (!response.ok) {
@@ -2725,7 +2725,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "TaskService": () => (/* binding */ TaskService)
 /* harmony export */ });
-/* harmony import */ var D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var _home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 2560);
 /* harmony import */ var _fetch_fetch_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../fetch/fetch.service */ 4404);
 
@@ -2739,7 +2739,7 @@ class TaskService {
   getTasks() {
     var _this = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       let response = yield _this.fetchService.get(`tasks`);
       return yield response.json();
     })();
@@ -2748,7 +2748,7 @@ class TaskService {
   getCompletedTasks() {
     var _this2 = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       let response = yield _this2.fetchService.get(`tasks/completed/${new Date().getTime()}`);
       return yield response.json();
     })();
@@ -2757,7 +2757,7 @@ class TaskService {
   changeTaskState(characterId, taskId, completed) {
     var _this3 = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       yield _this3.fetchService.post('tasks/change-state', {
         taskId: taskId,
         characterId: characterId,
@@ -2770,7 +2770,7 @@ class TaskService {
   getTask(id) {
     var _this4 = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       let response = yield _this4.fetchService.get(`tasks/${id}`);
       return yield response.json();
     })();
@@ -2779,7 +2779,7 @@ class TaskService {
   create(task) {
     var _this5 = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       yield _this5.fetchService.post('tasks', task);
     })();
   }
@@ -2787,7 +2787,7 @@ class TaskService {
   update(task) {
     var _this6 = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       yield _this6.fetchService.put('tasks', task);
     })();
   }
@@ -2795,7 +2795,7 @@ class TaskService {
   delete(id) {
     var _this7 = this;
 
-    return (0,D_Projects_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_home_runner_work_maple_check_maple_check_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       yield _this7.fetchService.delete("tasks", {
         id: id
       });
