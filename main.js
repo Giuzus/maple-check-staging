@@ -1490,7 +1490,7 @@ class LevelingComponent {
     }
 }
 LevelingComponent.ɵfac = function LevelingComponent_Factory(t) { return new (t || LevelingComponent)(); };
-LevelingComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LevelingComponent, selectors: [["app-leveling"]], decls: 65, vars: 0, consts: [[1, "container"], ["id", "link-skills", "type", "checkbox"], ["for", "link-skills"], ["id", "legion-grid", "type", "checkbox"], ["for", "legion-grid"], ["id", "hyper-stats", "type", "checkbox"], ["for", "hyper-stats"], ["id", "guild-skill", "type", "checkbox"], ["for", "guild-skill"], ["id", "familiar", "type", "checkbox"], ["for", "familiar"], ["id", "2x-coupon", "type", "checkbox"], ["for", "2x-coupon"], ["id", "exp-accumulation", "type", "checkbox"], ["for", "exp-accumulation"], ["id", "monster-park", "type", "checkbox"], ["for", "monster-park"], ["id", "legion-attack", "type", "checkbox"], ["for", "legion-attack"], ["id", "guild-attack", "type", "checkbox"], ["for", "guild-attack"], ["id", "mvp-damage-coupon", "type", "checkbox"], ["for", "mvp-damage-coupon"], ["id", "pendant-of-the-spirit", "type", "checkbox"], ["for", "pendant-of-the-spirit"], ["id", "wild-totem", "type", "checkbox"], ["for", "wild-totem"], ["id", "drop-items", "type", "checkbox"], ["for", "drop-items"]], template: function LevelingComponent_Template(rf, ctx) { if (rf & 1) {
+LevelingComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LevelingComponent, selectors: [["app-leveling"]], decls: 67, vars: 0, consts: [[1, "container"], ["id", "link-skills", "type", "checkbox"], ["for", "link-skills"], ["id", "legion-grid", "type", "checkbox"], ["for", "legion-grid"], ["id", "hyper-stats", "type", "checkbox"], ["for", "hyper-stats"], ["id", "guild-skill", "type", "checkbox"], ["for", "guild-skill"], ["id", "familiar", "type", "checkbox"], ["for", "familiar"], ["id", "2x-coupon", "type", "checkbox"], ["for", "2x-coupon"], ["id", "exp-accumulation", "type", "checkbox"], ["for", "exp-accumulation"], ["id", "monster-park", "type", "checkbox"], ["for", "monster-park"], ["id", "legion-attack", "type", "checkbox"], ["for", "legion-attack"], ["id", "guild-attack", "type", "checkbox"], ["for", "guild-attack"], ["id", "mvp-damage-coupon", "type", "checkbox"], ["for", "mvp-damage-coupon"], ["id", "pendant-of-the-spirit", "type", "checkbox"], ["for", "pendant-of-the-spirit"], ["id", "wild-totem", "type", "checkbox"], ["for", "wild-totem"], ["id", "drop-items", "type", "checkbox"], ["for", "drop-items"]], template: function LevelingComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Leveling");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1561,10 +1561,12 @@ LevelingComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "label", 26);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Wild totem");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](62, "input", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "label", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "Drop/Meso drop items");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](62, "br")(63, "input", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "label", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "Drop/Meso drop items");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, styles: ["input[_ngcontent-%COMP%] {\n  margin-right: 5px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxldmVsaW5nLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksaUJBQUE7QUFDSiIsImZpbGUiOiJsZXZlbGluZy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImlucHV0IHtcbiAgICBtYXJnaW4tcmlnaHQ6IDVweDtcbn0iXX0= */"] });
 
 
